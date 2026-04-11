@@ -11,7 +11,7 @@
     "nome": "Parafuso Sextavado",
     "categoria": "Fixação",
     "descricao": "Parafuso de alta resistência para estruturas",
-    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/parafuso.png"
+    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/parafuso_novoo.png"
   },
   {
     "id": 1002,
@@ -25,14 +25,14 @@
     "nome": "Porca Sextavada",
     "categoria": "Fixação",
     "descricao": "Porca de fixação em aço galvanizado",
-    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/porca.png"
+    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/porca_nova.png"
   },
   {
     "id": 1004,
     "nome": "Cadeado de segurança",
     "categoria": "Fixação",
     "descricao": "Cadeado de aço com alta resistência",
-    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/cadeado.png"
+    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/cadeado_novo.png"
   },
   {
     "id": 1005,
