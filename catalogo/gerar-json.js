@@ -1,30 +1,34 @@
 const fs = require("fs");
 const path = require("path");
 
-const pastaImagens = path.join(__dirname, "imagens");
+// 🔥 URL do seu Google Sheets via OpenSheet
+const URL =
+  "https://opensheet.elk.sh/1LRBI178V3LQn5cBtV8eeh4TgZde4iS4RuUB1_1aCdI4/produtos";
 
-const baseUrl =
-  "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/";
+async function gerarJSON() {
+  try {
+    const response = await fetch(URL);
+    const data = await response.json();
 
-const arquivos = fs.readdirSync(pastaImagens);
+    const produtos = data
+      .filter((p) => p.id && p.nome)
+      .map((p) => ({
+        id: Number(p.id),
+        nome: p.nome,
+        categoria: p.categoria,
+        descricao: p.descricao,
+        imagem: p.imagem,
+      }));
 
-const produtos = arquivos
-  .filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file))
-  .map((file) => {
-    const nomeFormatado = file
-      .replace(/\.[^/.]+$/, "")
-      .replace(/-/g, " ");
+    fs.writeFileSync(
+      path.join(__dirname, "produtos.json"),
+      JSON.stringify(produtos, null, 2)
+    );
 
-    return {
-      nome: nomeFormatado,
-      imagem: baseUrl + file,
-      descricao: "Produto metálico sob medida",
-    };
-  });
+    console.log("JSON gerado a partir do Google Sheets!");
+  } catch (error) {
+    console.error("Erro ao gerar JSON:", error);
+  }
+}
 
-fs.writeFileSync(
-  path.join(__dirname, "produtos.json"),
-  JSON.stringify(produtos, null, 2)
-);
-
-console.log("JSON gerado com sucesso!");
+gerarJSON();
