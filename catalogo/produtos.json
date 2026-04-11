@@ -1,0 +1,47 @@
+[
+  {
+    "nome": "abrasivos",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/abrasivos.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "alicate",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/alicate.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "bucha",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/bucha.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "cadeado",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/cadeado.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "disco",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/disco.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "furadeira",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/furadeira.jpg",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "parafuso",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/parafuso.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "porca",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/porca.png",
+    "descricao": "Produto metálico sob medida"
+  },
+  {
+    "nome": "tubo",
+    "imagem": "https://raw.githubusercontent.com/accium-hub/accium-catalogo/main/catalogo/imagens/tubo.png",
+    "descricao": "Produto metálico sob medida"
+  }
+]
