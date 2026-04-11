@@ -1,0 +1,30 @@
+name: Gerar JSON automaticamente
+
+on:
+  push:
+    paths:
+      - "catalogo/imagens/**"
+
+jobs:
+  gerar-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Rodar script
+        run: node catalogo/gerar-json.js
+
+      - name: Commit do JSON
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add catalogo/produtos.json
+          git commit -m "Atualiza produtos.json automaticamente" || echo "Sem mudanças"
+          git push
