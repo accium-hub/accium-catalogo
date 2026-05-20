@@ -68,5 +68,12 @@
     "categoria": "Ferramentas",
     "descricao": "Esquadro Starrett No.53M-350 40cm",
     "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/Esquadro%20Starret%2053m-350.webp"
+  },
+  {
+    "id": 1010,
+    "nome": "Arame Mig 0,8 15Kg",
+    "categoria": "Solda",
+    "descricao": "Arame Mig 0,8 15Kg",
+    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/arame%20mig.jpg"
   }
 ]
