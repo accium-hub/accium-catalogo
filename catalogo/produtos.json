@@ -75,5 +75,12 @@
     "categoria": "Solda",
     "descricao": "Arame Mig 0,8 15Kg",
     "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/arame%20mig.jpg"
+  },
+  {
+    "id": 1011,
+    "nome": "Esmerilhadeira Angular Wesco 900W - 220V",
+    "categoria": "Ferramentas",
+    "descricao": "Esmerilhadeira Angular Wesco 900W - 220V",
+    "imagem": "WESCO EMIRILHADEIRA 900W.png"
   }
 ]
