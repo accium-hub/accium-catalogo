@@ -61,5 +61,12 @@
     "categoria": "Ferramentas",
     "descricao": "Chaves de diversos diâmetros",
     "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/chave_de_boca.png"
+  },
+  {
+    "id": 1009,
+    "nome": "Esquadro Starrett",
+    "categoria": "Ferramentas",
+    "descricao": "Esquadro Starrett No.53M-350 40cm",
+    "imagem": "https://cdn.jsdelivr.net/gh/accium-hub/accium-catalogo/catalogo/imagens/Esquadro%20Starret%2053m-350.webp"
   }
 ]
